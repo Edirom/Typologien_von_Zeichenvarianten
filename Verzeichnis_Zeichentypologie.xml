@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vorläufige Beschreibungen der Notationsbeispiele: Typologie von Zeichenvarianten</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Github unter: https://github.com/Edirom/Typologien_von_Zeichenvarianten/commit/e7cf9232da668d094de99de9c56ea22877e0caf6</p>
+            <p>bei JV im Verzeichnis: BMBF_Zentren/Materialitaet/Typologien_von_Zeichenvarianten; dort weitere Beispiele einfügen!</p>
+            <p>im GitHub-Desktop dann oben den Reiter: "Uncommitted Changes" anklicken und mit Nachricht einchecken und anschließend synchronisieren. </p>
+         </sourceDesc> 
+      </fileDesc>
+     <revisionDesc>
+        <change when="2017-08-08"  who="JV">erster Versuch</change>
+     </revisionDesc>
+  </teiHeader>
+   <!-- Was brauchen wir:
+   - eine mehrfache Unterteilungsmöglichkeit: geht mit div1, 2 usw. am besten
+   - Rubriken, die dann als heads eingetragen werden können  (auch wichtig: Gute Schlagworte für die Suche!! head und sub-head)
+   - eine Bezeichnung der Beispiele (Wiederholung des Namens in Github)
+   - eine genauere bibliographische Information, ev. auch zu Besitzer, vielleicht sogar zu Rechten???
+   - die Erläuterung des Sachverhalts,
+   - Hinweise auf Sekundärliteratur dazu (entweder beim einzelnen Beispiel oder auch unter einer Gruppe??)
+   - was noch ???
+   (die Form als list mit notes ist so sicherlich nicht gut - wir sollten uns gemeinsam eine Struktur überlegen und in TEI schauen, was am besten passt; Vielleicht sollten wir auch an sowas wie Sortierbarkeit denken??
+   auf jeden Fall sollten wir es so machen, dass daraus leicht Websitendarstellungen erzeugt werden können - z.B. indem wir statt des items, das gleich als Bild einbinden etc.??)
+   - auch die Struktur ist noch unklar: Bis-Anweisungen hätten viele Beispiele - Kommentare kann es zum Einzelbeispiel, aber auch generell geben (bei der Literatur ist es ebenso); wir brauchen auch Rubriken für den Komponisten und den Zeitraum, damit das in der Suche erfasst wird
+   - eventuell bei der Struktur ein wenig auch von der geplanten Darstellung ausgehen (wäre auf jeden Fall eine Art Aufklappbaum?) [aufmalen?]
+   
+   bisherige Kategorien:
+   - Dynamik
+   - Gabeln_Schweller
+   - Korrekturvorgänge
+      - Akzente
+      - Bis_Anweisungen
+   - Kurzschreibweisen
+      - Artikulationskuerzel
+      - Tonrepetitionen
+   - Lesarten_Kontext
+   - Punkt-Strich
+      - Akzentfunktion
+      - Staccata
+   
+   -->
+  <text>
+      <body>
+         <div1>
+            <head>Korrekturvorgänge</head>
+            <div2>
+               <head>Akzente</head>
+               <list>
+                  <item>Akzente_Nachstich_Weber_FreiDi_D_pt_Schlesinger_Nr_4_T_005.png</item>
+               <note type="bibl">Carl Maria von Weber, Der Freischütz, Partiturdrucke Schlesinger 1849 mit Korrekturen von Jähns und Rietz, rechts: revidierter Partiturdruck 1867</note>
+               <note type="commentary">Im linken Fenster ist der ursprünglich, von Jähns betreute Druck zu sehen, in der Mitte die Korrekturen, die Julius Rietz eingetragen hat, rechts die ausgeführten Korrekturen im Druck von 1867: Bei den Akzenten sind die Nachträge deutlich an einem anderen Stempelwerkzeug zu erkennen.</note>
+               </list>
+            </div2>
+            <div2>
+               <head>Bis-Anweisungen</head>
+               <list>
+                  <item>Bis_Anweisung_Weber_WeV_P_11_Viola_ED-1_Satz4_T_130.jpg</item>
+                  <item>Bis_Anweisung_Weber_WeV_P_11_Viola_ED-2_Satz4_T_130.jpg</item><!-- wir brauchen einen Nachweis, wo die Bilder her sind!! -->
+  
+                  <note type="bibl">Carl Maria von Weber, Klarinettenquintett WeV P.11, Erstdruck 1 und korrigierter Erstdruck, Satz 4, T. 130</note>
+                  <note type="commentary">Die in ED-1 übersehene Taktwiederholung ist in der Stichplatte durch Wiederholungszeichen und die darüber gesetzte "BIS"-Antweisung behoben.</note>
+                  <item>Bis_Anweisung_Weber_WeV_P_11_Violine1_ED_1_Satz4_T_355.jpg</item>    
+                  <item>Bis_Anweisung_Weber_WeV_P_11_Violine1_ED_2_Satz4_T_355.jpg</item>
+                  <note type="bibl">Carl Maria von Weber, Klarinettenquintett WeV P.11, Erstdruck 1 und korrigierter Erstdruck, Satz 4, T. 355</note>
+                  <note type="commentary">Der Fehler des nicht wiederholten T. 355 ist im Detmolder Exemplar des ED durch das handschriftlich eingetragene "bis" behoben, in ED-2 ist dies wiederum durch Wiederholungspunkte und den "BIS"-Zusatz in den Druckplatten korrigiert</note>
+ <!-- Literatur, Schlagwörter? -->
+               </list>
+               <p></p><!-- p's gingen auch hier -->
+
+               <div3><!-- eventuell um hier Erläuterungen unterzubringen??, als div3 aber eher unlogisch -->
+                  <p>...</p>
+               </div3>
+            </div2>
+               
+         </div1>
+         <div1>
+            <head>Repetitionen</head>
+            <div2>
+               <head>Tonrepetitionsstriche</head>
+               <list>
+                  <item>Tonrepetitionsstriche_Salieri_Prima_la_Musica_Sinfonia1_Handschrift_B_T_001ff.jpg</item><!-- hier müssen wir beschneiden, um Rechtsproblem zu umgehen -->
+                  <item>Tonrepetitionsstriche_Salieri_Prima_la_Musica_Sinfonia1_Neuausgabe_T_001ff.jpg</item>
+                  <note type="bibl">Antonio Salieri, Prima la Musica e poi le Parole, Publikation: Opera, Handschrift B, A-Wn, Sinfonia, T. 1-5 (Vl 1, 2, Vle, Fg, Bassi)</note>
+                  <note type="commentary">Tonrepetitionsstriche (16-tel) in Vl 2 und B zu Halben bzw. Viertelnoten (simples Beispiel) und Beispiel für eine Auflösung im Neusatz, die die Aufmerksamkeit vom eigentlichen Geschehen ablenkt.</note>
+               </list>
+            </div2>
+         </div1>
+         
+        <div1>
+           <head>Punkt-Strich</head>
+           <div2>
+              <head>Akzentfunktion des Striches</head>
+              <p>Kommentar insgesamt</p>
+              <list>
+                 <item>Akzentstrich_Weber_WeV_N_11_A1_Satz_1_T_070.jpg</item><!-- Achtung: inkonsequente WeV-Angabe auf Github ändern -->
+                 <note type="bibl">Carl Maria von Weber, Konzert für Klarinette und Orchester Nr. 1, Autograph 1 und 2, Satz 1, T. 70</note>
+                 <note type="commentary">Die von einem crescendo ausgehende, mit der Viertelnote endende Gruppe, ist in Autograph 1 mit Strich, in Autograph 2 mit Akzent bezeichnet und illustriert so die offensichtliche Bedeutungsgleichheit beider Zeichen.</note>
+                 <item>Akzentstrich_Weber_WeV_N_10_Satz1_T_066.jpg</item>
+                 <note type="bibl">Carl Maria von Weber, Concertino für Klarinette und Orchester, Autograph, T. 66</note>
+                 <note type="commentary">Die simultan zu Taktbeginn notierten Zeichen Akzent, Strich, Strich (in langer Form) zeigen, dass beide Zeichen hier in gleicher Bedeutung benutzt werden.</note>
+              </list>
+           </div2>
+           <div2>
+              <head>Staccato-Formen</head>
+              <list type="composer" n="Vogler">
+                 <head>Beispiele aus Voglers XY</head>
+                 <item>Vogler_Dole_vise_Var_Autograph_Var_5_T_001_Vibrato.jpg</item>
+                 <item>Vogler_Dole_vise_Var_Autograph_Var_5_T_004_Strich_Punkt_Wechsel.jpg</item>
+                 <item>Vogler_Dole_vise_Var_Autograph_Var_5_T_009_Strich_Punkt_Wechsel.jpg</item>
+                 <item>Vogler_Dole_vise_Var_Autograph_Var_5_T_012_Strich_Punkt_Wechsel.jpg</item>
+                 <note type="bibl">Georg Joseph Vogler, Variationen über Dole vise, Autograph, D-DS, Mus...., Ausschnitte aus Variation 5</note>
+                 <note type="commentary">In zurückgenommenener Laustärke setzt Vogler hier Punkte, zu denen er die Bezeichnung "vibrato e mezza voce" notiert; in T. 5 wechseln Striche und Punkte mit der Dynamik (Striche zum for, Punkte zum p - hier für die letzten 6 der Balkengruppe, bei T. 8 und 9 und 12 ist die Abhängigkeit der Zeichenform von der Lautstärke sehr deutlich zu erkennen.</note>
+              </list>
+           </div2>
+        </div1>
+      </body>
+  </text>
+</TEI>
