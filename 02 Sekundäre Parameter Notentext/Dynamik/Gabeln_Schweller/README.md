@@ -1,1 +1,0 @@
-# Typologien_von_Zeichenvarianten
