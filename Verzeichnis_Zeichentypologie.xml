@@ -22,10 +22,15 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-08-08" who="JV">erster Versuch</change>
+         <!-- reine Zufügungen oder Korrektur von Daten: -->
+         <!-- strukturelle Änderungen nachfolgend auflisten: -->
+         <change type="strukturell" when="2017-08-08" who="JV">erster Versuch</change>
       </revisionDesc>
    </teiHeader>
+   <!-- T. 138 aus Jubelkantate noch aufnehmen! -->
+   <!-- Komponisten mit Verweiszweichen  -->
 
+<!-- Hinweis: In der Dateistruktur nur die 3 oberen Ebenen - dann Sprung auf Ebene 3 in den Begriffen -->
    <!-- TO DO allgemein:
    - Anm: sub-head not allowed anywhere; Alternative?
    - Hinweise auf Sekundärliteratur als Gruppe
@@ -53,11 +58,6 @@
                </div3>
                <div3>
                   <head>Wiederholungszeichen, Volten-Klammern, Da capo, Dal segno</head>
-                  <list type="composer" n="Spontini">
-                     <item>01_Primäre_Parameter/Eigenheiten_primärer_Notentext/Portato_Kuerzel_Spontini_Vestalin_Akt_I_Ouvertuere_T_015-016_ED-pt.jpg</item>
-                     <note type="bibl"></note>
-                     <note type="commentary"></note>
-                  </list>
                   <p/>
                   <!-- p's gingen auch hier -->
                </div3>
@@ -122,10 +122,10 @@
             <div2>
                <head>Artikulation/Musikalische Spielanweisungen</head>
                <div3>
-                  <head>Punkt-/Strich-Problematik</head>
+                  <head>Strich-/Punkt-Problematik</head>
                   <!-- Akzentfunktion -->
                   <list type="composer" n="Weber">
-                     <item>02_Sekundäre_Parameter/Artikulation/Akzentstrich_Weber_WeV_N_11_A1_Satz_1_T_070.jpg</item>
+                     <item>02_Sekundäre_Parameter/Artikulation/Strich_Punkt_Akzentstrich_Weber_WeV_N_11_A1_Satz_1_T_070.jpg</item>
                         <!-- Achtung: inkonsequente WeV-Angabe auf Github ändern -->
                         <note type="bibl">Carl Maria von Weber, Konzert für Klarinette und Orchester Nr.
                            1, Autograph 1 und 2, Satz 1, T. 70</note>
@@ -133,7 +133,7 @@
                            endende Gruppe, ist in Autograph 1 mit Strich, in Autograph 2 mit Akzent
                            bezeichnet und illustriert so die offensichtliche Bedeutungsgleichheit beider
                            Zeichen.</note>
-                     <item>02_Sekundäre_Parameter/Artikulation/Akzentstrich_Weber_WeV_N_10_Satz1_T_066.jpg</item>
+                     <item>02_Sekundäre_Parameter/Artikulation/Strich_Punkt_Akzentstrich_Weber_WeV_N_10_Satz1_T_066.jpg</item>
                         <note type="bibl">Carl Maria von Weber, Concertino für Klarinette und Orchester,
                            Autograph, T. 66</note>
                         <note type="commentary">Die simultan zu Taktbeginn notierten Zeichen Akzent,
@@ -141,8 +141,8 @@
                            Bedeutung benutzt werden.</note>
                      </list>
                   <list type="composer" n="Mozart">
-                     <item>02_Sekundäre_Parameter/Artikulation/Akzentstrich_Mozart_DonGiovanni_Partiturdruck_Breitkopf_1801_Akt_1_S_096_Nr_03.jpg</item>
-                     <item>02_Sekundäre_Parameter/Artikulation/Akzentstrich_Mozart_DonGiovanni_Partiturdruck_Breitkopf_1801_Akt_2_S_297_Nr_14.jpg</item>
+                     <item>02_Sekundäre_Parameter/Artikulation/Strich_Punkt_Akzentstrich_Mozart_DonGiovanni_Partiturdruck_Breitkopf_1801_Akt_1_S_096_Nr_03.jpg</item>
+                     <item>02_Sekundäre_Parameter/Artikulation/Strich_Punkt_Akzentstrich_Mozart_DonGiovanni_Partiturdruck_Breitkopf_1801_Akt_2_S_297_Nr_14.jpg</item>
                      <note type="bibl"></note>
                      <note type="commentary"></note>
                   </list>
@@ -168,6 +168,11 @@
                </div3>
                <div3>
                   <head>Portato</head>
+                  <list type="composer" n="Spontini">
+                     <item>02_Sekundäre_Parameter/Artikulation/Portato_Kuerzel_Spontini_Vestalin_Akt_I_Ouvertuere_T_015-016_ED-pt.jpg</item>
+                     <note type="bibl"></note>
+                     <note type="commentary"></note>
+                  </list>
                </div3>
                <div3>
                   <head>Tenuto</head>
